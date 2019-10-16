@@ -20,7 +20,9 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.S3ClientOptions;
 import org.apache.kafka.common.config.ConfigDef;
 
-import static com.spredfast.kafka.connect.s3.S3ConfigurationConfig.*;
+import static com.spredfast.kafka.connect.s3.S3ConfigurationConfig.REGION_CONFIG;
+import static com.spredfast.kafka.connect.s3.S3ConfigurationConfig.WAN_MODE_CONFIG;
+import static com.spredfast.kafka.connect.s3.S3ConfigurationConfig.S3_ENDPOINT_URL_CONFIG;
 
 public class S3 {
 
